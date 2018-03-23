@@ -5,7 +5,7 @@
  * es que usa una palabra como semilla, la cual cada caracter representa el indice
  * del charset a ser sumado en las operaciones modulares. Esta semilla se repita cuantas
  * veces sea necesario hasta cifrar/descifrar toda la cadena.
- * @copyLeft  : RIC - 2009
+ * @copyLeft  : RIC (www.redinfocol.org) - 2009
  * @package   : RiCrypt
  * @author    : Phicar, phicar@yashira.org
  ******************************************************************************/

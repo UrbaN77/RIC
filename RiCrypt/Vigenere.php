@@ -2,11 +2,11 @@
 /******************************************************************************
  * Nombre : Vigenere.php
  * Clase para el cifrado de Vigenere para RIC (redinfocol.org). Este es un cifrado de
- * sustitución polialfabetico, siendo una variación del cifrado de cesar. La diferencia
+ * sustituciï¿½n polialfabetico, siendo una variaciï¿½n del cifrado de cesar. La diferencia
  * es que usa una palabra como semilla, la cual cada caracter representa el indice
  * del charset a ser sumado en las operaciones modulares. Esta semilla se repita cuantas
  * veces sea necesario hasta cifrar/descifrar toda la cadena.
- * @copyLeft  : RIC - 2012
+ * @copyLeft  : RIC (www.redinfocol.org) - 2012
  * @package   : RiCrypt
  * @author    : D-m-K, d4rk.m0nk3y@gmail.com
  ******************************************************************************/
@@ -88,9 +88,9 @@ class Vigenere {
         $result = "";			//Texto de salida
         $tamC = strlen($this->charset); //Longitud de la cadena del charset
 		$k = 0; 				//Indice para sustitucion de la cadena con el charset
-		$n %= $tamC;			//Semilla ó rotacion
+		$n %= $tamC;			//Semilla ï¿½ rotacion
 		$c = strtoupper($c);	//Convierto a mayuscula el caracter		
-		//Realizo la sustitución de cada caracter        
+		//Realizo la sustituciï¿½n de cada caracter        
         //Evaluo si el caracter en la posicion $i existe, de lo contrario
         //Dejo el caracter que esta por defecto
 		if(strstr($this->charset, $c)){

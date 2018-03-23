@@ -5,7 +5,7 @@
  * de una forma y de otra se (des)cifra.  Se tienen dos primos potencialmente grandes llamados p y q, 
  * la multiplicación de ellos se llamará n (n=pq), se usará además la cantidad de coprimos de n y menores 
  * a sí (phi(n)) acá como sabemos cuáles son los dos factores de n entonces para que lo descomponemos.
- * @copyLeft  : RIC - 2011
+ * @copyLeft  : RIC (www.redinfocol.org) - 2011
  * @package   : RiCrypt
  * @author    : Phicar, phicar@yashira.org, http://www.redinfocol.org/cifrados-rsa/
  ******************************************************************************/

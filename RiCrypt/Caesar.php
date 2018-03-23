@@ -1,8 +1,8 @@
 <?php
 /*****************************************************************************
  * Nombre : Caesar.php
- * Implementación del cifrado de cesar para RIC (www.redinfocol.org). Este cifrado usa 
- * una clave de sustitución simple. En la actualidad existen muchos codes similares a este y el mas 
+ * Implementacion del cifrado de cesar para RIC (www.redinfocol.org). Este cifrado usa 
+ * una clave de sustituciï¿½n simple. En la actualidad existen muchos codes similares a este y el mas 
  * conocido se llama Rot13, el cual realiza una rotacion de 13 caracteres la cadena original. 
  * @copyLeft  : RIC - 2012
  * @package   : RiCrypt
@@ -34,7 +34,7 @@ class Caesar {
 	*****************************************************************************/
     function encode(){
 		$result = "";								//Variable donde queda el resultado
-        for($i=0; $i<strlen($this->txt); $i++)  	//Realizo la sustitución de cada caracter
+        for($i=0; $i<strlen($this->txt); $i++)  	//Realizo la sustituciï¿½n de cada caracter
             $result .= $this->rotate($this->txt{$i}, $this->rot);	//Invoco funcion que hace la rotacion
         return $result;								//Devuelvo la cadena Cifrada =)
     }
@@ -47,7 +47,7 @@ class Caesar {
 	*****************************************************************************/
     function decode(){
 		$result = "";								//Variable donde queda el resultado
-        for($i=0; $i<strlen($this->txt); $i++)  	//Realizo la sustitución de cada caracter
+        for($i=0; $i<strlen($this->txt); $i++)  	//Realizo la sustituciï¿½n de cada caracter
             $result .= $this->rotate($this->txt{$i}, -$this->rot);	//Invoco funcion que hace la rotacion
         return $result;								//Devuelvo la cadena DesCifrada =)
     }
@@ -64,7 +64,7 @@ class Caesar {
         $result = "";					//Texto de salida
         $tamC = strlen($this->charset); //Longitud de la cadena del charset
 		$k = 0; 						//Indice para sustitucion de la cadena con el charset
-		$n %= $tamC;					//Semilla ó rotacion
+		$n %= $tamC;					//Semilla ï¿½ rotacion
 		$c = strtoupper($c);			//Convierto a mayuscula el caracter
         //Evaluo si el caracter en la posicion $i existe, de lo contrario dejo el caracter que esta por defecto
 		if(strstr($this->charset, $c)){

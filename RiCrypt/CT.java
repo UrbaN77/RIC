@@ -6,7 +6,7 @@
 * cual permitirá dividir la matriz en n/p filas, con el numero p de columnas. 
 * Después de eso hay un orden establecido por el usuario que determina de que 
 * forma se agruparan las columnas para ponerlas en el texto Cifrado.
-* @copyLeft  : RIC - 2011
+* @copyLeft  : RIC (www.redinfocol.org) - 2011
 * @package   : RiCrypt
 * @author    : Phicar, phicar@yashira.org, www.redinfocol.org
 ******************************************************************************/
